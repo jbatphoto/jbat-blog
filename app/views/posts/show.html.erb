@@ -1,0 +1,18 @@
+<section class="hero">
+	<div class="row">
+		<div class="medium-8 medium-offset-2 columns">
+			<%= @post.title %>
+		</div>
+	</div>
+</section>
+
+<div class="row">
+	<div class="medium-8 small-12 columns">
+		<%= image_tag @post.image, class: 'portfolio' %>
+	</div>
+
+	<div class="medium-4 small-12 columns">
+		<h3>About the Project</h3>
+		<%= @post.body %>
+	</div>
+</div>
