@@ -5,5 +5,12 @@
  @import 'content.scss';
 
  body {
- 	font-family: 'Roboto Slab', serif;
+ 	font-family: 'Roboto Slab', serif !important;
+ }
+
+ h1, h2, h3 {
+ 	font-weight: bold;
+ 	text-transform: capitalize;
+ 	color: $slate;
+ 	font-family: 'Roboto Slab', serif !important;
  }

@@ -10,9 +10,9 @@
     </div>
     <div class="top-bar-right">
       <ul class="dropdown menu" data-dropdown-menu>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><%= link_to "Home", root_path %></li>
+        <li><%= link_to "About Me", :controller => "pages", :action => "about" %></li>
+        <li><%= link_to "Projects", posts_path %></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
