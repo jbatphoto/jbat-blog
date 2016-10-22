@@ -1,0 +1,21 @@
+.top-bar {
+	color: white;
+	background: $blue;
+	.top-bar-title {
+		font-size: 18px;
+		text-transform: uppercase;
+		span {
+			font-weight: bold;
+		}
+	}
+	ul {
+		background: none;
+		li {
+			a {
+				color: white;
+				font-size: 13px;
+				font-weight: bold;
+			}
+		}
+	}
+}
