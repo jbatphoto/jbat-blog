@@ -1,16 +1,29 @@
- @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,700');
- @import "base/base";
- @import "partials/partials";
- @import "hero.scss";
- @import 'content.scss';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,700');
+@import "base/base";
+@import "partials/partials";
+@import "hero.scss";
+@import 'content.scss';
 
- body {
- 	font-family: 'Roboto Slab', serif !important;
- }
+body {
+	font-family: 'Roboto Slab', serif !important;
+}
 
- h1, h2, h3 {
- 	font-weight: bold;
- 	text-transform: capitalize;
- 	color: $slate;
- 	font-family: 'Roboto Slab', serif !important;
- }
+h1, h2, h3 {
+	font-weight: bold;
+	text-transform: capitalize;
+	color: $slate;
+	font-family: 'Roboto Slab', serif !important;
+}
+
+.row {
+	max-width: 1100px !important;
+}
+
+[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
+	background: $light-gray;
+	border: 1px solid $border;
+}
+
+textarea {
+	min-height: 250px;
+}

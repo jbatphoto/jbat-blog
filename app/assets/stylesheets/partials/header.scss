@@ -1,16 +1,19 @@
-.top-bar {
+.menu {
 	color: white;
 	background: $blue;
-	.top-bar-title {
+	padding: 1em 0 0;
+	.logo {
 		font-size: 18px;
 		text-transform: uppercase;
-		span {
-			font-weight: bold;
-		}
+		font-weight: bold;
 	}
 	ul {
 		background: none;
+		float: right;
 		li {
+			list-style-type: none;
+			display: inline-block;
+			padding: 0 0.75em;
 			a {
 				color: white;
 				font-size: 13px;

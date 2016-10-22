@@ -93,6 +93,8 @@ GEM
       execjs
     coffee-script-source (1.10.0)
     concurrent-ruby (1.0.2)
+    contact_us (1.0.1)
+      rails (>= 4.2.0)
     debug_inspector (0.0.2)
     devise (4.2.0)
       bcrypt (~> 3.0)
@@ -247,6 +249,7 @@ DEPENDENCIES
   activeadmin!
   byebug
   coffee-rails (~> 4.2)
+  contact_us (~> 1.0.1)
   devise
   foundation-rails
   inherited_resources!

@@ -1,20 +1,15 @@
-<div class="top-bar">
-  <div class="top-bar-title">
-    <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
-      <button class="menu-icon dark" type="button" data-toggle></button>
-    </span>
-    <span>Justin</span>Battenfield
-  </div>
-  <div id="responsive-menu">
-    <div class="top-bar-left">
+<section class="menu">
+  <div class="row">
+    <div class="medium-4 small-12 columns logo">
+     Justin Battenfield
     </div>
-    <div class="top-bar-right">
-      <ul class="dropdown menu" data-dropdown-menu>
+    <div class="medium-8 small-12 columns">
+      <ul>
         <li><%= link_to "Home", root_path %></li>
-        <li><%= link_to "About Me", :controller => "pages", :action => "about" %></li>
+        <li><%= link_to "About Me", about_path %></li>
         <li><%= link_to "Projects", posts_path %></li>
-        <li><a href="#">Contact</a></li>
+        <li><%= link_to "Contact", contact_us_path %></li>
       </ul>
     </div>
   </div>
-</div>
+</section>
