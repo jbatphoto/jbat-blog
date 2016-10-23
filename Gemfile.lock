@@ -252,6 +252,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   contact_us (~> 1.0.1)
   devise
+  formtastic (~> 3.0)
   foundation-rails
   inherited_resources!
   jbuilder (~> 2.5)

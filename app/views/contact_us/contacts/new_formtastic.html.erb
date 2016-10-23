@@ -10,7 +10,7 @@
 <div class="row content">
   <div class="medium-6 columns">
 	<h2><%= t('.contact_us') %></h2>
-	<%= semantic_form_for @contact, :url => contacts_path do |f| %>
+	<%= semantic_form_for @contact, :url => contact_us_path do |f| %>
 	  <%= f.input :name, :label => t('.name') if ContactUs.require_name %>
 	  <%= f.input :email, :label => t('.email') %>
 	  <%= f.input :subject, :label => t('.subject') if ContactUs.require_subject %>
